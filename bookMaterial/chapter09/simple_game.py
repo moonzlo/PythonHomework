@@ -9,7 +9,7 @@ again = None
 while again != "n":
     players = []
     num = games.ask_number(question = "How many players? (2 - 5): ",
-                           low = 2, high = 5)
+                           low = 2, high = 6)
     for i in range(num):
         name = input("Player name: ")
         score = random.randrange(100) + 1    
